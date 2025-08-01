@@ -1,0 +1,26 @@
+# Streamlit web app framework
+streamlit>=1.33.0
+
+# Audio processing
+librosa>=0.10.1
+soundfile>=0.12.1
+pydub>=0.25.1
+numpy>=1.26.4
+scipy>=1.13.0
+
+# Visualization
+matplotlib>=3.9.0
+
+# Google Gemini API client
+google-generativeai>=0.5.2
+
+# For handling environment variables (if needed)
+python-dotenv>=1.0.1
+
+# For file handling and UUID generation
+uuid
+
+# Optional: model serving (if you're using local ML model)
+scikit-learn>=1.5.0
+torch>=2.3.0
+transformers>=4.43.2
