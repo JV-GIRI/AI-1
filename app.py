@@ -12,7 +12,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-pro")
 
-st.title("🩺 AI Diagnostic PCG Analyzer (Text-Based, Gemini-Pro)")
+st.title("💓 AI Diagnostic PCG Analyzer (Text-Based, Gemini-Pro)")
 st.markdown("Upload a heart sound (.wav or .mp3), auto extract info, and get diagnosis.")
 
 uploaded_file = st.file_uploader("📂 Upload PCG Audio File", type=["wav", "mp3"])
